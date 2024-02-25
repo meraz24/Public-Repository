@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/_30sdp"
+    tools:context=".fragments.SettingFragment">
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:textColor="@color/white"
+        android:layout_margin="@dimen/_20sdp"
+        android:background="@drawable/item_background_transparent_bottom_navigation"
+        android:text="Logout"/>
+
+</RelativeLayout>

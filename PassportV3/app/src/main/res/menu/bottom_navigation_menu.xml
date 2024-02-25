@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/pass"
+        android:title="Passes"
+        android:tooltipText=""
+        android:icon="@drawable/planeticket"/>
+    <item
+        android:id="@+id/visa"
+        android:title="Visas"
+        android:tooltipText=""
+        android:icon="@drawable/card"/>
+    <item
+        android:id="@+id/passport"
+        android:title="Passport"
+        android:tooltipText=""
+        android:icon="@drawable/passport"/>
+    <item
+        android:id="@+id/setting"
+        android:title="Setting"
+        android:tooltipText=""
+        android:icon="@drawable/setting"/>
+        <!--android:icon="@drawable/ic_settings_foreground"-->
+</menu>
