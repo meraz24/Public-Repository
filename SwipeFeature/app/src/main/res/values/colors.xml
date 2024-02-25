@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_transparent">#00FFFFFF</color>
+
+    <color name="color_black_transparent">#D5000000</color>
+    <color name="color_black_transparent_stroke">#313A3A3A</color>
+
+
+    <color name="app_background_color">#F5F5F5</color>
+    <color name="app_background_color_splash">#FFFFFFFF</color>
+
+    <color name="text_color_heading">#FF000000</color>
+    <color name="text_color_description">#4E4E4E</color>
+    <color name="text_color_date_time">#D8858585</color>
+
+
+    <color name="text_color_hint">#D8979797</color>
+
+    <color name="text_color_chat_current_user">#D8FFFFFF</color>
+    <color name="text_color_chat_other_user">#BE6990</color>
+
+    <color name="text_color_editext">#FF000000</color>
+    <color name="stroke_color_editext">#C3B6C9</color>
+    <color name="stroke_color_divider">#C3B6C9</color>
+    <color name="text_color_buttons">#FFFFFF</color>
+
+    //color title
+    <color name="text_color_pink">#BE6990</color>
+
+
+    <color name="gradient_button_start_color">#A3426C</color>
+    <color name="gradient_button_center_color">#D36A93</color>
+    <color name="gradient_button_end_color">#E8EC73A2</color>
+
+
+    <color name="icon_ting_color_pink">#BE6990</color>
+    <color name="icon_ting_color_white">#FFFFFF</color>
+
+
+    <color name="app_bottom_dialog_color">#F5F5F5</color>
+
+
+    <color name="color_error_red">#E8B10000</color>
+    <color name="color_delete_item">#E8D86868</color>
+    <color name="color_success_green">#168E00</color>
+
+    <color name="color_success_shimmer_view">#BE6990</color>
+
+
+
+</resources>

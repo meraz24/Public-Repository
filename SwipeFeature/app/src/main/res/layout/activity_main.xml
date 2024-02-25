@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/rlViewNoData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_above="@+id/tvNoMatches"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icon_outofmatches" />
+
+        <TextView
+            android:id="@+id/tvNoMatches"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Out of Matches"
+            android:textAlignment="center"
+            android:textColor="@color/text_color_heading"
+            android:textSize="@dimen/_14ssp" />
+    </LinearLayout>
+
+    <pt.tornelas.segmentedprogressbar.SegmentedProgressBar
+        android:id="@+id/segmentProgress"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginHorizontal="@dimen/_22sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:segmentBackgroundColor="@color/black"
+        app:segmentCornerRadius="2dp"
+        app:segmentSelectedBackgroundColor="@color/icon_ting_color_pink"
+        app:segmentSelectedStrokeColor="@color/stroke_color_editext"
+        app:segmentStrokeColor="@color/icon_ting_color_pink"
+        app:timePerSegment="2000"
+        app:totalSegments="10" />
+    <com.app.swipefeature.SwipeViewUtil.CardStackView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/stack_view"
+        android:background="@color/color_transparent"
+        android:layout_centerHorizontal="true"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageLikeDislike"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:visibility="gone"
+            android:src="@drawable/icon_like" />
+    </RelativeLayout>
+
+</RelativeLayout>

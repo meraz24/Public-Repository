@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvUserPhotosView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ru.tinkoff.scrollingpagerindicator.ScrollingPagerIndicator
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="533dp"
+        app:spi_dotColor="@color/icon_ting_color_white"
+        app:spi_dotSelectedColor="@color/icon_ting_color_pink"
+        app:spi_dotSelectedSize="@dimen/_18sdp"
+        app:spi_dotSize="@dimen/_14sdp"
+        app:spi_dotSpacing="@dimen/_5sdp" />
+
+    <RelativeLayout
+        android:id="@+id/rlUserBasicDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_50sdp"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/_20sdp">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/tvAge"
+                android:text="Calvin B"
+                android:textStyle="bold"
+                android:textColor="@color/text_color_pink"
+                android:textSize="@dimen/_24ssp" />
+
+            <TextView
+                android:id="@+id/tvAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="23"
+                android:textStyle="bold"
+                android:textColor="@color/text_color_pink"
+                android:textSize="@dimen/_18ssp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvIndicator"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_height="@dimen/_50sdp"/>
+</RelativeLayout>
